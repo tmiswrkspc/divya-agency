@@ -7,12 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "next build",
-    "vercel-start": "next start"
+    "vercel-build": "next build -o .next",
+    "vercel-start": "next start -p $PORT"
   },
   "dependencies": {
     "@vercel/analytics": "^1.1.4",
-    "@vercel/static-export": "^1.1.4",
     "@hookform/resolvers": "^3.9.0",
     "@next/swc-wasm-nodejs": "13.5.1",
     "@radix-ui/react-accordion": "^1.2.0",
