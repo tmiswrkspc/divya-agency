@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Menu, ShoppingCart, Sprout } from 'lucide-react';
+import { Menu, ShoppingCart } from 'lucide-react';
+import Image from 'next/image';
 import { useCartStore } from '@/lib/store';
 
 const navigation = [
@@ -30,8 +31,16 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <Sprout className="h-8 w-8 text-[#1A6B3D]" />
-            <span className="text-xl font-bold text-[#1A6B3D]">Divya Agency</span>
+            <div className="relative h-10 w-10">
+              <Image
+                src="/images/divya-agency-logo.png"
+                alt="Divya Agency Logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <span className="ml-2 text-xl font-bold text-[#1A6B3D]">Divya Agency</span>
           </Link>
 
           {/* Desktop Navigation */}

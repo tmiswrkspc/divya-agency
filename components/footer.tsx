@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Sprout, Facebook, Twitter, Instagram, Mail } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Mail } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,8 +12,15 @@ export default function Footer() {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <Sprout className="h-8 w-8 text-[#1A6B3D]" />
-              <span className="text-xl font-bold">Divya Agency</span>
+              <div className="relative h-10 w-10">
+                <Image
+                  src="/images/divya-agency-logo.png"
+                  alt="Divya Agency Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <span className="ml-2 text-xl font-bold">Divya Agency</span>
             </Link>
             <p className="text-gray-400 mb-4">
               Leading supplier of premium drip irrigation systems and agricultural equipment. 
