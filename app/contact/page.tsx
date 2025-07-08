@@ -183,8 +183,8 @@ export default function ContactPage() {
                     />
                     <div>
                       <h3 className="font-heading font-normal text-lg">Phone</h3>
-                      <p className="text-gray-600 leading-relaxed">+91 98765 43210</p>
-                      <p className="text-gray-600 leading-relaxed">+91 98765 43211</p>
+                      <p className="text-gray-600 leading-relaxed">📞 +91 90035 72453</p>
+                      <p className="text-gray-600 leading-relaxed">📞 +91 90035 72453</p>
                     </div>
                   </div>
                   
@@ -197,8 +197,7 @@ export default function ContactPage() {
                     />
                     <div>
                       <h3 className="font-heading font-normal text-lg">Email</h3>
-                      <p className="text-gray-600 leading-relaxed">info@divyaagency.com</p>
-                      <p className="text-gray-600 leading-relaxed">support@divyaagency.com</p>
+                      <p className="text-gray-600 leading-relaxed">info@divyaagency.life</p>
                     </div>
                   </div>
                   

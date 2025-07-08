@@ -8,9 +8,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <div className="relative h-10 w-10">
                 <Image
@@ -33,7 +33,7 @@ export default function Footer() {
               <Mail className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
             </div>
           </div>
-
+          
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -45,12 +45,23 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Policies */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Policies</h3>
+            <ul className="space-y-2">
+              <li><Link href="/privacy-policy" className="text-gray-400 hover:text-white">Privacy Policy</Link></li>
+              <li><Link href="/terms-conditions" className="text-gray-400 hover:text-white">Terms & Conditions</Link></li>
+              <li><Link href="/shipping-policy" className="text-gray-400 hover:text-white">Shipping Policy</Link></li>
+              <li><Link href="/cancellation-refund" className="text-gray-400 hover:text-white">Cancellation & Refund</Link></li>
+            </ul>
+          </div>
+
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="space-y-2 text-gray-400">
-              <p>📞 +91 98765 43210</p>
-              <p>✉️ info@divyaagency.com</p>
+              <p>📞 +91 90035 72453</p>
+              <p>✉️ info@divyaagency.life</p>
               <p>📍 No:1/39, Maveripatty, H Eachampadi post, Harur, Dharmapuri, Tamil Nadu - 636902, India</p>
             </div>
           </div>
