@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "next build -o .next",
+    "vercel-build": "next build",
     "vercel-start": "next start -p $PORT"
   },
   "dependencies": {
