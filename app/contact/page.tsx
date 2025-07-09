@@ -201,7 +201,7 @@ export default function ContactPage() {
                         <a href="mailto:info@divyaagency.life" className="hover:text-[#1A6B3D]">info@divyaagency.life</a>
                       </p>
                       <p className="text-gray-600 leading-relaxed">
-                        <a href="mailto:divyaagency19994@gmail.com" className="hover:text-[#1A6B3D]">divyaagency19994@gmail.com</a>
+                        <a href="mailto:divyaagency1994@gmail.com" className="hover:text-[#1A6B3D]">divyaagency1994@gmail.com</a>
                       </p>
                     </div>
                   </div>

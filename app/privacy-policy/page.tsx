@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
               </ul>
               
               <p className="mb-8">
-                To exercise any of these rights, contact us directly via the <Link href="/contact" className="text-blue-600 hover:underline">Contact page</Link> or at <a href="mailto:info@divyaagency.life" className="text-blue-600 hover:underline">info@divyaagency.life</a> or <a href="mailto:divyaagency19994@gmail.com" className="text-blue-600 hover:underline">divyaagency19994@gmail.com</a>. We will respond to your request within 30 days.
+                To exercise any of these rights, contact us directly via the <Link href="/contact" className="text-blue-600 hover:underline">Contact page</Link> or at <a href="mailto:info@divyaagency.life" className="text-blue-600 hover:underline">info@divyaagency.life</a> or <a href="mailto:divyaagency1994@gmail.com" className="text-blue-600 hover:underline">divyaagency1994@gmail.com</a>. We will respond to your request within 30 days.
               </p>
 
               <h3 className="text-xl font-serif font-bold text-gray-900 mt-8 mb-4">
@@ -124,7 +124,7 @@ export default function PrivacyPolicy() {
                 <p>Harur, Dharmapuri,</p>
                 <p>Tamil Nadu - 636902, India</p>
                 <p>Email: <a href="mailto:info@divyaagency.life" className="text-blue-600 hover:underline">info@divyaagency.life</a><br />
-                <a href="mailto:divyaagency19994@gmail.com" className="text-blue-600 hover:underline">divyaagency19994@gmail.com</a></p>
+                <a href="mailto:divyaagency1994@gmail.com" className="text-blue-600 hover:underline">divyaagency1994@gmail.com</a></p>
                 <p>Phone: <a href="tel:+919003572453" className="text-blue-600 hover:underline">+91 90035 72453</a></p>
               </address>
               
