@@ -197,7 +197,12 @@ export default function ContactPage() {
                     />
                     <div>
                       <h3 className="font-heading font-normal text-lg">Email</h3>
-                      <p className="text-gray-600 leading-relaxed">info@divyaagency.life</p>
+                      <p className="text-gray-600 leading-relaxed">
+                        <a href="mailto:info@divyaagency.life" className="hover:text-[#1A6B3D]">info@divyaagency.life</a>
+                      </p>
+                      <p className="text-gray-600 leading-relaxed">
+                        <a href="mailto:divyaagency19994@gmail.com" className="hover:text-[#1A6B3D]">divyaagency19994@gmail.com</a>
+                      </p>
                     </div>
                   </div>
                   

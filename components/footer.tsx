@@ -61,7 +61,8 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="space-y-2 text-gray-400">
               <p>📞 +91 90035 72453</p>
-              <p>✉️ info@divyaagency.life</p>
+              <p>✉️ <a href="mailto:info@divyaagency.life" className="hover:text-white">info@divyaagency.life</a></p>
+              <p>✉️ <a href="mailto:divyaagency19994@gmail.com" className="hover:text-white">divyaagency19994@gmail.com</a></p>
               <p>📍 No:1/39, Maveripatty, H Eachampadi post, Harur, Dharmapuri, Tamil Nadu - 636902, India</p>
             </div>
           </div>
