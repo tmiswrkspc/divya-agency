@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { toast } from 'sonner';
 import { ArrowLeft, ShoppingCart, Minus, Plus, CheckCircle, Truck, Shield } from 'lucide-react';
+import ImageGallery from './ImageGallery';
 import { useCartStore } from '@/lib/store';
 import { Product } from '@/lib/products';
 import PrimaryCtaButton from '@/components/primary-cta-button';
@@ -51,17 +52,14 @@ export default function ProductDetailsClient({ product }: ProductDetailsClientPr
 
       {/* Product Details */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-        {/* Image */}
+        {/* Image Gallery */}
         <div className="relative">
-          <Image
-            src={product.image}
-            alt={product.title}
-            width={600}
-            height={400}
-            className="w-full h-96 object-cover rounded-lg shadow-lg"
+          <ImageGallery 
+            mainImage={product.image} 
+            productName={product.title} 
           />
           {product.originalPrice && (
-            <Badge className="absolute top-4 right-4 bg-red-500 text-white">
+            <Badge className="absolute top-4 right-4 bg-red-500 text-white z-10">
               {Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}% OFF
             </Badge>
           )}
