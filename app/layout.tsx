@@ -4,6 +4,7 @@ import { Merriweather, Lato } from 'next/font/google';
 import { Toaster } from '@/components/ui/sonner';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const merriweather = Merriweather({ 
   subsets: ['latin'],
@@ -35,6 +36,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <Toaster position="top-right" />
+        <SpeedInsights />
       </body>
     </html>
   );
